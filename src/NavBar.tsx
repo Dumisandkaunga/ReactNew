@@ -2,7 +2,7 @@ import Deborah_Chikoko from './assets/Images/Deborah_Chikoko.jpeg';
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom px-4">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom px-4 fixed-top">
         <span className="navbar-brand fw-500">DC</span>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
@@ -14,7 +14,7 @@ function NavBar() {
         </div>
       </nav>
 
-      <section className="d-flex align-items-center justify-content-between px-5 py-5" style={{ minHeight: '85vh' }}>
+      <section className="d-flex align-items-center justify-content-between px-5 py-5" style={{ minHeight: '85vh', marginTop: '3.5rem' }}>
         <div>
             <div className="text-start me-auto">
           <span className="badge bg-dark text-white mb-3">Open to Opportunities</span>
@@ -35,9 +35,30 @@ function NavBar() {
             <div><h5 className="mb-0">2028</h5><small className="text-muted">Expected Graduation</small></div>
           </div>
         </div>
-        <div className="border rounded-2" style={{ width: 280, height: 360, background: '#f5f5f5', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#aaa' }}>
-         <img src={Deborah_Chikoko} alt="Deborah Chikoko" style={{ width: '100%',height: '100%', objectFit: 'cover' }} />
-        </div>
+       <div
+  className="border rounded-circle"
+  style={{
+    width: 280,
+    height: 280, // make width and height equal for a perfect circle
+    background: '#f5f5f5',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden' // ensures the image stays inside the circle
+  }}
+>
+  <img
+    src={Deborah_Chikoko}
+    alt="Deborah Chikoko"
+    style={{
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover', 
+      objectPosition: 'center top' // fills the circle neatly
+    }}
+  />
+</div>
+
       </section>
     </>
   )

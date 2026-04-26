@@ -1,3 +1,6 @@
+import Debbie from './assets/Images/Debbie.jpeg';
+
+
 function About() {
   return (
     <section id="about" className="px-5 py-5" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
@@ -10,8 +13,8 @@ function About() {
             borderRadius: 6, display: 'flex', alignItems: 'center',
             justifyContent: 'center', color: '#aaa', fontSize: 14, flexShrink: 0
           }}>
-            {/* Replace with <img src={photo} ... /> */}
-            Photo coming soon
+        <img src={Debbie} alt="Deborah Chikoko" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
+        
           </div>
         </div>
 
