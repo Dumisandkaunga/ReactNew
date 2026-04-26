@@ -14,7 +14,7 @@ function NavBar() {
         </div>
       </nav>
 
-      <section className="d-flex align-items-center justify-content-between px-5 py-5" style={{ minHeight: '85vh', marginTop: '3.5rem' }}>
+      <section className="hero-section d-flex align-items-center justify-content-between px-5 py-5 " style={{ minHeight: '85vh', marginTop: '3.5rem' }}>
         <div>
             <div className="text-start me-auto">
           <span className="badge bg-dark text-white mb-3">Open to Opportunities</span>

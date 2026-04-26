@@ -4,7 +4,7 @@ function Footer() {
       <div style={{ maxWidth: 860, margin: '0 auto' }}>
 
         {/* Top row */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '3rem', flexWrap: 'wrap', gap: '2rem' }}>
+        <div className="footer-top" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '3rem', flexWrap: 'wrap', gap: '2rem' }}>
 
           {/* Left: Branding */}
           <div>

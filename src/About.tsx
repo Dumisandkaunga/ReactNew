@@ -3,7 +3,7 @@ import Debbie from './assets/Images/Debbie.jpeg';
 
 function About() {
   return (
-    <section id="about" className="px-5 py-5" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
+    <section id="about" className=" about-section px-5 py-5" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
       <div className="row w-100 align-items-center g-5">
 
         {/* Left: Image placeholder */}

@@ -15,7 +15,7 @@ function Contact() {
   }
 
   return (
-    <section id="contact" style={{ padding: '80px 60px', minHeight: '80vh' }}>
+    <section id="contact" className='contact-section' style={{ padding: '80px 60px', minHeight: '80vh' }}>
       <div style={{ maxWidth: 860, margin: '0 auto' }}>
 
         <span style={{

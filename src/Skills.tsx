@@ -10,7 +10,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" style={{ background: '#f9f9f9', padding: '80px 60px' }}>
+    <section id="skills" className="skills-section" style={{ background: '#f9f9f9', padding: '80px 60px' }}>
       <div style={{ maxWidth: 860, margin: '0 auto' }}>
 
         <span style={{
