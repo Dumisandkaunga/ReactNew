@@ -27,7 +27,7 @@ function NavBar() {
           </div>
           <div className="d-flex gap-3 mt-4">
             <a href="#projects" className="btn btn-outline-dark px-4 py-2">View My Work</a>
-            <a href="/cv.pdf" className="btn btn-outline-dark px-4 py-2">Download CV</a>
+            <a href="/cv.pdf" download="Deborah_Chikoko_CV.pdf" className="btn btn-outline-dark px-4 py-2">Download CV</a>
           </div>
           <div className="d-flex gap-5 mt-5 pt-4 border-top">
             <div><h5 className="mb-0">BBA</h5><small className="text-muted">Business Administration</small></div>
